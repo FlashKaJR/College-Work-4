@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,14 +55,19 @@
     <UnityVersion>2022.3.46f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettingsProvider.cs" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\BackupSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\LinkerPropertyProviderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\CustomPropertyProviderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettingsProviderView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\EditorPreferencesProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\AssemblyOptionsSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\TypeOptionsSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\EditorPreferencesProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\EditorPreferencesProviderView.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\SettingsProvider\ProjectSettings\ScriptReferenceResolverSettings.cs" />
   </ItemGroup>

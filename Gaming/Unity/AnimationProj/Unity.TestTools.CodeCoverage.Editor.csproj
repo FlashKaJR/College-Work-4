@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,24 +55,19 @@
     <UnityVersion>2022.3.46f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageWindow\CodeCoverageWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\ICoverageReporter.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageFormats\OpenCover\OpenCoverReporterStyles.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Replacing\PathReplacing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageFormats\OpenCover\OpenCoverReporter.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CommandLineParser\CommandLineOptionSet.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Analytics\CoverageAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageReportType.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Utils\JsonUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Events\Events.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageRunData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CommandLineParser\CommandLineOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Logging\ResultsLogger.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Icons\EditorIcons.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageFormats\CoverageFormat.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageWindow\IncludedAssembliesTreeView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageStats\CoverageStats.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\ReportGenerator\CoverageReportGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Filtering\AssemblyFiltering.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\ReportGenerator\ReportGeneratorStyles.cs" />
@@ -80,13 +75,25 @@
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Analytics\CoverageAnalyticsEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageReporterListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageWindow\FolderDropDownMenu.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Events\SessionEventInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Analytics\CoverageAnalyticsEnums.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageFormats\OpenCover\OpenCoverReporterFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Filtering\JsonFileFilterSchema.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CodeCoverage.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Utils\CoverageUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\ICoverageReporterFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageWindow\FolderType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\ICoverageReporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Replacing\PathReplacing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageFormats\OpenCover\OpenCoverReporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Analytics\CoverageAnalytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageReportType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Utils\JsonUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Events\Events.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CommandLineParser\CommandLineOption.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageFormats\CoverageFormat.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageStats\CoverageStats.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Events\SessionEventInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Analytics\CoverageAnalyticsEnums.cs" />
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CodeCoverage.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageFormats\OpenCover\CyclomaticComplexity.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageFormats\OpenCover\OpenCoverResultWriter.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CommandLineParser\ICommandLineOption.cs" />
@@ -94,9 +101,7 @@
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Events\CoverageEventData.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageWindow\PathToAddDropDownMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageWindow\PathToAddHandler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\ICoverageReporterFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageReporterManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageWindow\FolderType.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CommandLineManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\CoverageWindow\IncludedAssembliesPopupWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\Editor\Events\SessionMode.cs" />

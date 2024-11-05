@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,25 +55,30 @@
     <UnityVersion>2022.3.46f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstInspectorGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.Wasm.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.LLVMIR.info.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.LLVMIR.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstPlatformAotSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\LabeledPopup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.ARM64.info.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.x86.info.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\LongTextArea.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.ARM64.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstMath.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstStringSearch.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.Wasm.info.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.x86.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstAotCompiler.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\LabeledPopup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstDisassembler.Core.x86.info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstMath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\BurstMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.burst@1.8.17\Editor\Unity.Burst.Editor.asmdef" />

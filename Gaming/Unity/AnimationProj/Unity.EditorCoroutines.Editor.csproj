@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,10 +55,15 @@
     <UnityVersion>2022.3.46f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorWindowCoroutineExtension.cs" />
-    <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorCoroutineUtility.cs" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorWaitForSeconds.cs" />
     <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorCoroutine.cs" />
+    <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorWindowCoroutineExtension.cs" />
+    <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorCoroutineUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\Unity.EditorCoroutines.Editor.asmdef" />
