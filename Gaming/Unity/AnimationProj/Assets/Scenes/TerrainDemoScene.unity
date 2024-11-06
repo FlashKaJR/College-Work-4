@@ -3793,6 +3793,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2041725875766100332, guid: aaaa20bb90a9dae46bb3f6367d9cf157, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+    - target: {fileID: 2041725875766100332, guid: aaaa20bb90a9dae46bb3f6367d9cf157, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2375165932101732195, guid: aaaa20bb90a9dae46bb3f6367d9cf157, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -4153,6 +4161,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6248338129229952729, guid: aaaa20bb90a9dae46bb3f6367d9cf157, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 69933be25f1ba6c4c9fac9ad102553ca, type: 3}
     - target: {fileID: 6269801256012759560, guid: aaaa20bb90a9dae46bb3f6367d9cf157, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -4221,6 +4233,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7018788993930369525, guid: aaaa20bb90a9dae46bb3f6367d9cf157, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4473636605225106550, guid: 69933be25f1ba6c4c9fac9ad102553ca, type: 3}
     - target: {fileID: 7115434561002292384, guid: aaaa20bb90a9dae46bb3f6367d9cf157, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -8829,10 +8845,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushForce: 10
+  timer: 0.3
   push: 0
   standUp: 0
+  tp: 0
   player: {fileID: 617357204}
   playerPosition: {fileID: 817732871}
+  playerInput: {fileID: -944628639613478452, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+  ragdollInput: {fileID: -944628639613478452, guid: 6477fcc2e459aaa44867f6e53d42aa87, type: 3}
   playerAnimator: {fileID: 617357211}
   hipsRigidbody: {fileID: 1361119031}
   leftUpLegRigidbody: {fileID: 2013104102}
@@ -8849,6 +8869,7 @@ MonoBehaviour:
   rightArmRigidbody: {fileID: 1047041444}
   rightForeArmRigidbody: {fileID: 561927189}
   rightHandRigidbody: {fileID: 2019090017}
+  pelvisRoot: {fileID: 0}
 --- !u!1 &2102009158
 GameObject:
   m_ObjectHideFlags: 0
