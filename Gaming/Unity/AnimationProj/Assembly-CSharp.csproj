@@ -65,15 +65,16 @@
     <Compile Include="Assets\TerrainDemoScene_URP\Scripts\TerrainTreeToggle.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
-    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\KickImpact.cs" />
+    <Compile Include="Assets\Scripts\KickImpact.cs" />
     <Compile Include="Assets\TerrainDemoScene_URP\Scripts\SceneAnnotation.cs" />
+    <Compile Include="Assets\Scripts\OnTriggerAnim.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
-    <Compile Include="Assets\FollowHead.cs" />
+    <Compile Include="Assets\Scripts\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Scripts\FollowHead.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\OnTriggerAnim.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\CallKick.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainDemoScene_URP\Notes\Stamps.txt" />
